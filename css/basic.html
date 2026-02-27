@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Basic CSS</title>
+        <style>
+            body{
+                background-color:black;
+                background-image:url(../assests/image.png);
+                background-repeat:no-repeat;
+                background-size:cover;
+                background-position: center;
+            }
+            .box{
+                background-color:black;
+                width:20vw;
+                height: 20vh;
+                color:aliceblue;
+                font-size:20px;
+            }
+             .child{
+                font-size: 1em;
+            }
+            .child1{
+                font-size: 1.5em;
+            }
+            .child2{
+                font-size: 2em;
+            }
+               /* .box{
+                    background-color: black;
+                    border:10px solid red;
+                    padding:10px 20px 30px 40px;
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    padding-right: 30px;
+                    padding-bottom: 20px;
+                    margin: 30px;
+                    maegin:10px 20px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                }*/
+                /*.box{
+                    background-color:brown;
+                    display: inline-block;
+                    width:100px;
+                    height:100px;
+                    text-decoration:line-through;
+                    
+                }
+                ul{
+                    list-style:none;
+                }
+                a{
+                    text-decoration:none;
+                    color:white;
+                }*/
+                body{
+                    height:100vh;
+                }
+                .sticky{
+                    position: sticky;
+                    top:0;
+                }
+                .fixed{
+                    position:fixed;
+                    bottom:10px;
+                    right:10px;
+                    background-color: aqua;
+                    padding:10px;
+                }
+                .parent{
+                    position:relative;
+                    border:2px solid red;
+                    width:300px;
+                    height:60vh;
+                    top:10px;
+                    left:30px;
+                }
+                .child{
+                    position:absolute;
+                    border:2px dotted blue;
+                    width:100px;
+                    height:100px;
+                    top:50px;
+                    left:100px;
+                    background-color: aliceblue;
+                }
+
+            
+        </style>
+    </head>
+    <body>
+        <div class="sticky">sticky</div>
+        <div class="fixed">fixed</div>
+        <div class="parent">
+        relative
+        <div class="child">
+            Absolute
+        </div>
+        </div>
+        <a href="#">Home</a>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <div class="box">
+                Lorem ipsum dolor sit amet 
+        </div>
+            <!--div class="box">
+            <div class="child">
+                <p>Lorem ipsum dolor sit.</p>
+                </div>
+                <div class="child1">
+            <p>Lorem ipsum dolor sit.</p>
+        </div>-->
+    
+
+    </body>
+
+</html>
